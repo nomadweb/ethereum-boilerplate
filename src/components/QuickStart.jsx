@@ -1,4 +1,20 @@
-import { Card, Timeline, Typography } from "antd";
+{
+  "short_name": "Ethereum Boilerplate",
+  "name": "Ethereum Boilerplate",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "androiimport { Card, Timeline, Typography } from "antd";
 import React, { useMemo } from "react";
 import { useMoralis } from "react-moralis";
 
@@ -36,103 +52,30 @@ export default function QuickStart({ isServerInfo }) {
         style={styles.card}
         title={
           <>
-            📝 <Text strong>To-Do List</Text>
+            🦊 <Text strong>C O Z Y F O X</Text>
           </>
         }
       >
         <Timeline mode="left" style={styles.timeline}>
           <Timeline.Item dot="📄">
-            <Text delete style={styles.text}>
-              Clone or fork{" "}
+            <Text strong style={styles.text}>
+              FOSS:{" "}
               <a
-                href="https://github.com/ethereum-boilerplate/ethereum-boilerplate#-quick-start"
+                href="https://github.com/bild96/cozyfox"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ethereum-boilerplate
+                Open source code meets open economies. Build resilient projects,
+                better coordination, and positive-sum outcomes.
               </a>{" "}
             </Text>
           </Timeline.Item>
-
-          <Timeline.Item dot="💿">
-            <Text delete style={styles.text}>
-              Install all dependencies: <Text code>npm install</Text>
+          <Timeline.Item dot="🤖">
+            <Text style={styles.text}>
+              Building open Web3 technologies that support the goals of
+              financial freedom, shared ownership, and collaborative
+              determination.
             </Text>
-          </Timeline.Item>
-
-          <Timeline.Item dot="🧰">
-            <Text delete={isServerInfo} style={styles.text}>
-              Sign up for a free account on{" "}
-              <a
-                href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplate"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Moralis
-              </a>
-            </Text>
-          </Timeline.Item>
-
-          <Timeline.Item dot="💾">
-            <Text delete={isServerInfo} style={styles.text}>
-              Create a Moralis Server (
-              <a
-                href="https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                How to start Moralis Server
-              </a>
-              )
-            </Text>
-          </Timeline.Item>
-
-          <Timeline.Item dot="🔏">
-            <Text delete={isServerInfo} style={styles.text}>
-              Rename <Text code>.env.example</Text> to <Text code>.env</Text>{" "}
-              and provide your <Text strong>appId</Text> and{" "}
-              <Text strong>serverUrl</Text> from{" "}
-              <a
-                href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplate"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Moralis
-              </a>
-              :
-            </Text>
-            <Text code delete={isServerInfo} style={{ display: "block" }}>
-              REACT_APP_MORALIS_APPLICATION_ID = xxxxxxxxxxxx
-            </Text>
-            <Text code delete={isServerInfo} style={{ display: "block" }}>
-              REACT_APP_MORALIS_SERVER_URL =
-              https://xxxxxx.grandmoralis.com:2053/server
-            </Text>
-          </Timeline.Item>
-
-          <Timeline.Item dot="🔁">
-            <Text delete={isServerInfo} style={styles.text}>
-              Stop the app and start it again <Text code>npm run start</Text>
-            </Text>
-          </Timeline.Item>
-
-          <Timeline.Item dot="💿">
-            <Text delete={isInchDex} style={styles.text}>
-              Install{" "}
-              <a
-                href="https://moralis.io/plugins/1inch/?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplate"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                1inch Moralis Plugin
-              </a>{" "}
-              needed for the<Text code>{"<InchDex />"}</Text> component
-              (optional)
-            </Text>
-          </Timeline.Item>
-
-          <Timeline.Item dot="🚀">
-            <Text style={styles.text}>BUIDL!!!</Text>
           </Timeline.Item>
         </Timeline>
       </Card>
@@ -141,47 +84,55 @@ export default function QuickStart({ isServerInfo }) {
           style={styles.card}
           title={
             <>
-              💣 <Text strong>Starting Local Chain (optional)</Text>
+              ℹ️ <Text strong>COMMUNICATION</Text>
             </>
           }
         >
           <Timeline mode="left" style={styles.timeline}>
-            <Timeline.Item dot="💿">
-              <Text style={styles.text}>
-                Install{" "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.npmjs.com/package/truffle"
-                >
-                  Truffle
-                </a>{" "}
-                and{" "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://www.npmjs.com/package/ganache-cli"
-                >
-                  ganache-cli
-                </a>{" "}
-                <Text code>npm install -g ganache-cli truffle</Text>
-              </Text>
-            </Timeline.Item>
-            <Timeline.Item dot="⚙️">
-              <Text style={styles.text}>
-                Start you local devchain: <Text code>npm run devchain</Text> on
-                a new terminal
-              </Text>
-            </Timeline.Item>
             <Timeline.Item dot="📡">
               <Text style={styles.text}>
-                Deploy test contract: <Text code>npm run deploy</Text> on a new
-                terminal
+                Reach me in{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://join.status.im/u/0x04c0749eb82c806866fa488e44f7486573b439239110c24fe189b810523d57c1927814fc756260655c42b82a7de07840a455c064268d90a4836eda239d9d6db3e3"
+                >
+                  STATUS
+                </a>{" "}
+                <Text code>
+                  .it uses an open-source, peer-to-peer protocol, and end-to-end
+                  encryption to protect your messages from third parties.
+                </Text>
+              </Text>
+            </Timeline.Item>
+            <Timeline.Item dot="📧">
+              <Text style={styles.text}>
+                VIA{" "}
+                <a target="_blank" rel="noopener noreferrer" href="t.me/bild96">
+                  TELEGRAM
+                </a>{" "}
+                <Text code>
+                  Instant messaging and digital distribution platform designed
+                  for creating communities.
+                </Text>
+              </Text>
+            </Timeline.Item>
+            <Timeline.Item dot="✉️">
+              <Text style={styles.text}>
+                OR Drop an{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="mailto:lpefq0mtz@relay.firefox.com?Subject=Hello%20again"
+                >
+                  E-Mail
+                </a>{" "}
+                <Text code>Like other human 😎.</Text>
               </Text>
             </Timeline.Item>
             <Timeline.Item dot="✅" style={styles.text}>
               <Text>
-                Open the 📄<Text strong> Contract</Text> tab
+                GOOD LUCK 🌝 and be<Text strong> SAFE 😷</Text>
               </Text>
             </Timeline.Item>
           </Timeline>
@@ -190,35 +141,38 @@ export default function QuickStart({ isServerInfo }) {
           style={{ marginTop: "10px", ...styles.card }}
           title={
             <>
-              📡{" "}
-              <Text strong> Connecting your Local Chain to the Moralis DB</Text>
+              💡 <Text strong> useful links 🤓</Text>
             </>
           }
         >
           <Timeline mode="left" style={styles.timeline}>
-            <Timeline.Item dot="💿">
+            <Timeline.Item dot="🧰">
               <Text style={styles.text}>
-                Download{" "}
+                Join{" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/fatedier/frp/releases"
+                  href="https://gitcoin.co/townsquare/?cb=ref:10666"
                 >
-                  frpc
+                  Gitcoin
                 </a>{" "}
-                and provide missing params in the <Text code>.env</Text> file
+                .A community of 84,244 amazing open source developers working
+                remotely to build in Web3.🔧<Text></Text>
               </Text>
             </Timeline.Item>
-            <Timeline.Item dot="⚙️">
+            <Timeline.Item dot="🏗️">
               <Text style={styles.text}>
-                Connect your Moralis Database and Local Chain:{" "}
-                <Text code>npm run connect</Text>
-              </Text>
-            </Timeline.Item>
-            <Timeline.Item dot="💾">
-              <Text style={styles.text}>
-                Add contract events you want to watch:{" "}
-                <Text code>npm run watch:events</Text>
+                Try{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://buidlguidl.com"
+                >
+                  buidlguidl.
+                </a>{" "}
+                A curated group of Ethereum builders creating products,
+                prototypes, and tutorials to enrich the web3 ecosystem.🔧
+                <Text></Text>
               </Text>
             </Timeline.Item>
           </Timeline>
@@ -226,4 +180,15 @@ export default function QuickStart({ isServerInfo }) {
       </div>
     </div>
   );
+}
+g",
+      "sizes": "512x512"
+    }
+  ],
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
